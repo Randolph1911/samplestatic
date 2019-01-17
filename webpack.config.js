@@ -8,9 +8,9 @@ const VENDOR_LIBS = [
 
 module.exports = {
   entry: {
-    firstComp: './assets/js/firstComp/firstComp.js',
+    // firstComp: './assets/js/firstComp/firstComp.js',
     regularJS: './assets/js/regularJS.js',
-    vendor: VENDOR_LIBS
+    // vendor: VENDOR_LIBS
   },
   output: { filename: '[name].js',
             path: path.resolve(__dirname, 'public/js/components') },
